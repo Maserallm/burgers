@@ -1,17 +1,17 @@
 const connection = require("./connection.js");
 
 function printQuestionMarks(num) {
-  var arr = [];
-  for (var i = 0; i < num; i++) {
+  let arr = [];
+  for (let i = 0; i < num; i++) {
     arr.push("?");
   }
   return arr.toString();
 }
 
 function objToSql(ob) {
-  var arr = [];
-  for (var key in ob) {
-    var value = ob[key];
+  let arr = [];
+  for (let key in ob) {
+    let value = ob[key];
     if (Object.hasOwnProperty.call(ob, key)) {
       if (typeof value === "string" && value.indexOf(" ") >= 0) {
         value = "'" + value + "'";
@@ -24,14 +24,14 @@ function objToSql(ob) {
 
 const orm = {
   selectAll: function(tableInput, cb) {
-    var queryString = "SELECT * FROM " + tableInput + ";";
+    let queryString = "SELECT * FROM " + tableInput + ";";
     connection.query(queryString, function(err, result) {
       if (err) throw err;
       cb(result);
     });
   },
   insertOne: function(table, cols, vals, cb) {
-    var queryString = "INSERT INTO " + table;
+    let queryString = "INSERT INTO " + table;
 
     queryString += " (";
     queryString += cols.toString();
@@ -49,7 +49,7 @@ const orm = {
     });
   },
   updateOne: function(table, objColVals, condition, cb) {
-    var queryString = "UPDATE " + table;
+    let queryString = "UPDATE " + table;
 
     queryString += " SET ";
     queryString += objToSql(objColVals);
