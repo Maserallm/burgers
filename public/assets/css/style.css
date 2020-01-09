@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+  background: url("../img/burgers_background_2560x1920.jpg") center no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Helvetica Neue", "Lato", Arial, sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+svg {
+  fill: black;
+  padding: 20px;
+  width: 200px;
+  margin-bottom: 50px;
+}
+
+.wrapper {
+  padding: 20px;
+  max-width: 350px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin: 0;
+  font-weight: 200;
+}
+
+.burgers {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  list-style: none;
+}
+
+.burgers li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  font-weight: 100;
+}
+
+.burgers label {
+  flex: 1;
+  cursor: pointer;
+}
+
+.burgers input {
+  display: none;
+}
+
+.burgers input + label:before {
+  content: "⬜️";
+  margin-right: 10px;
+}
+
+.create-form {
+  margin-top: 20px;
+}
+
+.create-form input {
+  padding: 10px;
+  outline: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
