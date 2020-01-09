@@ -13,6 +13,7 @@
 
     <h2>Come and Try These Tasty Beefs!</h2>
 
+    <h3>Waiting to Be Eatten</h3>
     <ul class="burgers">
         {{#each burgers}}
         {{#unless devoured}}
@@ -21,6 +22,9 @@
         {{/each}}
     </ul>
 
+    <hr>
+
+    <h3>Have Eatten</h3>
     <ul class="burgers">
         {{#each burgers}}
         {{#if devoured}}
