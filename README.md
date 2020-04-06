@@ -49,13 +49,13 @@ I am the sole contributor to this application. Thank you to Astoe Design for cre
 You must have the following installed to run Want A Burger:
 
 - [Node](https://nodejs.org/en/)
-- [MySQL Workbench](https://getbootstrap.com/)
+- [MySQL Workbench](https://dev.mysql.com/doc/)
 
 #### Run on your local computer
 
 Clone or fork repository:
 
-    $ git clone git@github.com:Maserallm/Psychic-Game.git
+    $ git clone git@github.com:Maserallm/burgers.git
 
 CD into Psychic-Game folder
 
