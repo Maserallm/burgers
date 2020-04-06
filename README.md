@@ -17,6 +17,20 @@ Access the live webapp: [Want a Burger](https://sleepy-lowlands-87914.herokuapp.
 
 ---
 
+### Technologies
+
+| Backend    | Frontend     |
+| ---------- | ------------ |
+| Node       | Javascript 6 |
+| MySQL      | HTML5        |
+| Handlebars | CSS3         |
+| Express    | jQuery 3.4.1 |
+| JAWSDB     |              |
+| Nodemon    |              |
+| ORM        |              |
+
+---
+
 ### Installation
 
 #### Prerequisites
@@ -44,6 +58,27 @@ Install dependencies:
 $ npm install
 ```
 
+Initialize database:
+
+```
+DROP DATABASE IF EXISTS burger_db;
+
+CREATE DATABASE burger_db;
+
+USE burger_db;
+
+CREATE TABLE burgers
+(
+    id INT
+    AUTO_INCREMENT NOT NULL,
+    burger_name VARCHAR
+    (40) NOT NULL,
+    devoured BOOLEAN,
+    PRIMARY KEY
+    (id)
+);
+```
+
 Run the app with node or nodemon from the command line
 
 ```
@@ -51,22 +86,6 @@ $ nodemon server
 ```
 
 Open folder in code editor and inspect files.
-
----
-
----
-
-### Technologies
-
-| Backend    | Frontend     |
-| ---------- | ------------ |
-| Node       | Javascript 6 |
-| MySQL      | HTML5        |
-| Handlebars | CSS3         |
-| Express    | jQuery 3.4.1 |
-| JAWSDB     |              |
-| Nodemon    |              |
-| ORM        |              |
 
 ---
 
