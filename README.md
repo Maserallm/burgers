@@ -15,14 +15,17 @@ Type in the name of any burger that you wish to be placed on the menu to be eatt
 
 ---
 
-## Technologies Used in Application
+### Technologies
 
-1. Node JS
-2. MySQL
-3. JavaScript
-4. Express
-5. Handlebars
-6. SVG Image
+| Backend    | Frontend     |
+| ---------- | ------------ |
+| Node       | Javascript 6 |
+| MySQL      | HTML5        |
+| Handlebars | CSS3         |
+| Express    | jQuery 3.4.1 |
+| JAWSDB     |              |
+| Nodemon    |              |
+| ORM        |              |
 
 ---
 
