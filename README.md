@@ -69,13 +69,13 @@ Install dependencies:
 $ npm install
 ```
 
-Run the app from the command line
+Run the app with node or nodemon from the command line
 
 ```
-$ npm start
+$ nodemon server
 ```
 
-Open folder in code editor and open the index.html file in the browser.
+Open folder in code editor and inspect files.
 
 ---
 
