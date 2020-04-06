@@ -57,10 +57,22 @@ Clone or fork repository:
 
     $ git clone git@github.com:Maserallm/burgers.git
 
-CD into Psychic-Game folder
+CD into burgers folder
 
 ```
-$ cd Pyschic-Game
+$ cd burgers
+```
+
+Install dependencies:
+
+```
+$ npm install
+```
+
+Run the app from the command line
+
+```
+$ npm start
 ```
 
 Open folder in code editor and open the index.html file in the browser.
