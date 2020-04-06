@@ -1,14 +1,14 @@
-# Want-A-Burger
+# Want A Burger
 
 [![IMAGE ALT TEXT HERE](public/assets/img/noun_Burger_2387181.png)](https://sleepy-lowlands-87914.herokuapp.com/)
 
-## Getting Started
+### Getting Started
 
 Type in the name of any burger that you wish to be placed on the menu to be eatten or select an option that has already been prepared for you!
 
----
+Access the live webapp: [Want a Burger](https://sleepy-lowlands-87914.herokuapp.com/)
 
-## Link to Github Repo and Heroku
+### Link to Github Repo and Heroku
 
 - https://github.com/Maserallm/burgers
 - https://sleepy-lowlands-87914.herokuapp.com/
@@ -43,18 +43,6 @@ Access the live webapp: [Guess That Letter](https://maserallm.github.io/Psychic-
 - [Installation](#installation)
 - [Features](#features)
 - [About the Developer](#aboutthedeveloper)
-
-### Technologies
-
-| Backend    | Frontend     |
-| ---------- | ------------ |
-| Node       | Javascript 6 |
-| MySQL      | HTML5        |
-| Handlebars | CSS3         |
-| Express    | jQuery 3.4.1 |
-| JAWSDB     |              |
-| Nodemon    |              |
-| ORM        |              |
 
 ---
 
