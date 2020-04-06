@@ -46,11 +46,10 @@ I am the sole contributor to this application. Thank you to Astoe Design for cre
 
 #### Prerequisites
 
-You must have the following installed to run Guess that Letter:
+You must have the following installed to run Want A Burger:
 
-- [Code Editor](https://www.elegantthemes.com/blog/resources/best-code-editors)
-- [Twitter Bootstrap](https://getbootstrap.com/)
-- [Internet Browser](https://download.cnet.com/browsers-web/)
+- [Node](https://nodejs.org/en/)
+- [MySQL Workbench](https://getbootstrap.com/)
 
 #### Run on your local computer
 
