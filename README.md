@@ -43,12 +43,15 @@ Access the live webapp: [Guess That Letter](https://maserallm.github.io/Psychic-
 
 ### Technologies
 
-| Frontend          |
-| ----------------- |
-| Javascript 6      |
-| CSS3              |
-| Twitter Bootstrap |
-| HTML5             |
+| Backend    | Frontend     |
+| ---------- | ------------ |
+| Node       | Javascript 6 |
+| MySQL      | HTML5        |
+| Handlebars | CSS3         |
+| Express    | jQuery 3.4.1 |
+| JAWSDB     |              |
+| Nodemon    |              |
+|            |              |
 
 ---
 
