@@ -89,7 +89,7 @@ Open folder in code editor and inspect files.
 
 ---
 
-### <a name="aboutthedeveloper"></a> About the Developers
+### <a href="aboutthedeveloper">About the Developer</a>
 
 Want A Burger creator/designer:
 
