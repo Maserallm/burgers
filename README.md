@@ -35,8 +35,6 @@ I am the sole contributor to this application. Thank you to Astoe Design for cre
 
 This front-end app randomly picks a letter, and the user has to guess which letter the app chose! Choose each letter wisely as you only have seven chances to guess the right letter.
 
-Access the live webapp: [Guess That Letter](https://maserallm.github.io/Psychic-Game/)
-
 ## Contents
 
 - [Technologies](#technologies)
