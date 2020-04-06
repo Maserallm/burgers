@@ -8,10 +8,51 @@ Type in the name of any burger that you wish to be placed on the menu to be eatt
 
 Access the live webapp: [Want a Burger](https://sleepy-lowlands-87914.herokuapp.com/)
 
-### Link to Github Repo and Heroku
+## Contents
 
-- https://github.com/Maserallm/burgers
-- https://sleepy-lowlands-87914.herokuapp.com/
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Features](#features)
+- [About the Developer](#aboutthedeveloper)
+
+---
+
+### Installation
+
+#### Prerequisites
+
+You must have the following installed to run Want A Burger:
+
+- [Node](https://nodejs.org/en/)
+- [MySQL Workbench](https://dev.mysql.com/doc/)
+
+#### Run on your local computer
+
+Clone or fork repository:
+
+    $ git clone git@github.com:Maserallm/burgers.git
+
+CD into burgers folder
+
+```
+$ cd burgers
+```
+
+Install dependencies:
+
+```
+$ npm install
+```
+
+Run the app with node or nodemon from the command line
+
+```
+$ nodemon server
+```
+
+Open folder in code editor and inspect files.
+
+---
 
 ---
 
