@@ -51,7 +51,7 @@ Access the live webapp: [Guess That Letter](https://maserallm.github.io/Psychic-
 | Express    | jQuery 3.4.1 |
 | JAWSDB     |              |
 | Nodemon    |              |
-|            |              |
+| ORM        |              |
 
 ---
 
